@@ -21,10 +21,11 @@ function First() {
         <p className='font-sans  text-base xs:text-lg sm:text-xl mt-1 text-left p-2 xs:text-center '>Seeking a challenging career opportunity to utilize my diverse skill set
             and contribute to the success of a dynamic organization.</p>
       </div>
-      <span className='grow'>
 
-      </span>
-      <div className=' flex flex-col sm:flex sm:flex-row  sm:justify-between sm:space-x-2 space-y-2 px-2 py-2'  >
+      <span className="hidden md:block grow"></span>
+
+    
+      <div className=' flex flex-col sm:flex sm:flex-row  sm:justify-between sm:space-x-2 space-y-2 px-2 py-2 mt-36'  >
         <button className='xs:mx-auto xs:w-[240px] hover:bg-teal-200 border-2 border-solid border-teal-400 rounded-md px-2 sm:px-4 sm:text-2xl mx-4 '><a href={shubham} download="ShubhamResume">Resume </a></button>
 
         <button onClick={scrollToBottom} className=' xs:mx-auto xs:w-[240px] hover:bg-teal-200   bg-teal-400 border rounded-md  sm:px-4 sm:text-2xl px-2 mx-4 '>know more</button>
